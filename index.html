@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="print.css" media="print" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>cv_yovera</title>
+  </head>
+
+  <body>
+    <!--========== HEADER ==========-->
+    <!-- https://boxicons.com/ (los iconos)-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Jords</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home nav__icon"></i>Home
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="bx bx-book nav__icon"></i>Education
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-receipt nav__icon"></i>Sk1ills
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#interes" class="nav__link">
+                <i class="bx bx-link-external nav__icon"></i>Interés
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#profile" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>SOBRE MÍ
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="bx bx-briefcase-alt nav__icon"></i>EXPERIENCIA
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#certificates" class="nav__link">
+                <i class="bx bx-award nav__icon"></i>Certificates
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--========== HOME ==========-->
+          <section class="home" id="home">
+            <!-- Theme change button -->
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img src="assets/img/perfil2.jpg" alt"" class="home__img">
+
+                <h1 class="home__title">JORDS <b>YOVERA PALACIOS</b></h1>
+                <h3 class="home__profession">
+                  Tecnico en Redes | Desarrollador 
+                </h3>
+
+                <!-- pdf -->
+                <div>
+                  <a
+                    download=""
+                    href="assets/pdf/ResumeCv.pdf"
+                    class="home__button-movil"
+                    >Download</a
+                  >
+                </div>
+              </div>
+
+              <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i> Perú, Lima, Puente Piedra
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-envelope home__icon"></i>
+                  jordsyovera@gmail.com
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-phone home__icon"></i> +51 967 260 541
+                </span>
+              </div>
+            </div>
+
+            <!-- Theme change button -->
+            <i
+              class="bx bx-moon change-theme"
+              title="theme"
+              id="theme-button"
+            ></i>
+
+            <!-- Boton para generar y descargar el pdf. Disponible para escritorio. -->
+            <i
+              class="bx bx-download generate-pdf"
+              title="Generate PDF"
+              id="resume-button"
+            ></i>
+          </section>
+
+          <!--========== SOCIAL ==========-->
+          <section class="social section">
+            <h2 class="section-title">SOCIAL</h2>
+
+            <div class="social__container bd-grid">
+              <a
+                href="https://www.linkedin.com/in/jords-jeyson-yovera-palacios-1a48a8282/"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-linkedin-square social__icon"></i> @Jords
+                Jeyson Yovera Palacios
+              </a>
+
+              <a
+                href="https://github.com/Jords19"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-github social__icon"></i> @Jords19
+              </a>
+
+              <a
+                i
+                href="https://www.instagram.com/williams392_/?hl=en"
+                target="_blank"
+                href=""
+                class="social__link"
+              >
+                <i class="bx bxl-instagram social__icon"></i> @jordsyovera
+              </a>
+            </div>
+          </section>
+
+          <!--========== PROFILE ==========-->
+          <!-- <section class="profile section" id="profile">
+            <h2 class="section-title">Profile</h2>
+
+            <p class="profile__description">
+              Busco una posición en el mundo IT que me permita aplicar y
+              continuar desarrollando mis habilidades en programación. tengo
+              conocimientos en desarrollo de aplicaciones .NET y Desarrollador
+              Backend Python (Django), estoy en busca de mi primera experiencia
+              laboral en este campo.
+            </p>
+          </section> -->
+
+          <!--========== EDUCATION ==========-->
+          <section class="education section" id="education">
+            <h2 class="section-title">EDUCACIÓN</h2>
+
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    Universidad Privada del Norte
+                  </h3>
+                  <span class="education__studies">INGENIERÍA DE SISTEMAS</span>
+                  <span class="education__year">2021 - Proceso</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Universidad Nacional de Ingenería</h3>
+                  <span class="education__studies">CURSOS PIT2024</span>
+                  <span class="education__year">2024 - Junio</span>
+                  </div>
+                </div>
+              </div>
+          </section>
+
+          <!--========== SKILLS  ==========-->
+          <!-- <section class="skills section" id="skills"> (Original) -->
+          <section class="skills sectionSkills" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__content bd-grid">
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Html
+                </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Css
+                </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span>JavaSript
+                </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span>C#
+                </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Java
+                </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Python
+                </li>
+              </ul>
+
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Cisco PT
+                </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span>PuTTy
+                </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span>SQL Server
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!--========== interes ==========-->
+          <section class="profile sectionInteres" id="interes">
+            <h2 class="section-title">Qué trabajo busco?</h2>
+
+            <div class="interes__container">
+              <div class="interes__content bd-interes">
+                <ul class="interes__content bd-interes">
+                  <li class="interes__name">
+                    <span class="interes__circle"></span>Perú, Lima, Trabajo
+                      Remoto-Presencial.
+                  </li>
+
+                  <li class="interes__name">
+                    <span class="interes__circle"></span>No tengo empleo.
+                  </li>
+
+                  <li class="interes__name">
+                    <span class="interes__circle"></span> Disponibildad Inmediata.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume__right">
+          <!--========== Profile ==========-->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">SOBRE MÍ</h2>
+
+            <p class="profile__description" style="text-align: justify">
+              Me encuentro en búsqueda de una oportunidad laboral o de prácticas 
+              preprofesionales que me permita 
+              aplicar mis conocimientos y crecer como profesional en el mundo TI.
+              Me apasiona el área de redes y telecomunicaciones, donde busco especializarme, 
+              desarrollando soluciones que mejoren la conectividad y seguridad. 
+              También tengo 
+              habilidades en programación, especialmente con Python, y me interesa 
+              seguir aprendiendo nuevas tecnologías.
+            </p>
+          </section>
+
+          <!--========== EXPERIENCE ==========-->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">EXPERIENCIA</h2>
+
+            <div class="experience__container bd-grid">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <!--<span class="experience__line"></span>-->
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">
+                    Desarrollador Python
+                  </h3>
+                  <span class="experience__company">Enero. 2025 - Marzo. 2025</span>
+                  <p
+                    class="experience__description"
+                    style="text-align: justify"
+                  >
+                  Realicé web scraping del portal SEACE para la extracción de licitaciones, 
+                  así como la extracción de bases de datos de proveedores utilizando 
+                  técnicas de inteligencia artificial. 
+                  También trabajé con el manejo de API para la integración de datos. 
+  
+                  </p>
+                  <p class="experience__description">
+                    Experiencia en Python, Selenium, Playwright, API, inteligencia artificial y web scraping .
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== CERTIFICATES ==========-->
+          <section class="certificate section" id="certificates">
+            <h2 class="section-title">Certificados</h2>
+          
+            <div class="certificate__container bd-grid">
+              <ul style="list-style: none; padding: 0;">
+                <li><strong>Digital Awareness</strong> – Cisco Networking Academy, Octubre 2024</li>
+                <li><strong>Introduction to IoT</strong> – Cisco Networking Academy, Octubre 2024</li>
+                <li><strong>Power BI - Básico</strong> – Universidad Nacional de Ingeniería, Junio 2024</li>
+                <li><strong>SQL Server - Base de Datos 2</strong> – Universidad Nacional de Ingeniería, Julio 2024</li>
+                <li><strong>SQL Server - Base de Datos 1</strong> – Universidad Nacional de Ingeniería, 2024</li>
+                <li><strong>Introducción a la Ciencia de Datos</strong> – Cisco Networking Academy, Octubre 2023</li>
+                <li><strong>Get Connected</strong> – Cisco Networking Academy, Junio 2023</li>
+                <li><strong>Programming Essentials in C (Data Structure)</strong> – Cisco Networking Academy, Junio 2023</li>
+                <li><strong>Python Essentials 1</strong> – Cisco Networking Academy, Mayo 2023</li>
+                <li><strong>Programming Essentials in C (Fundamentals)</strong> – Cisco Networking Academy, Julio 2022</li>
+                <li><strong>Introducción a la Seguridad Cibernética</strong> – Cisco Networking Academy, Noviembre 2021</li>
+              </ul>
+            </div>
+          </section>
+                    
+          <!--========== REFERENCES ==========-->
+          <!-- <section class="references section" id="references">
+            <h2 class="section-title">References</h2>
+
+            <div class="references__container bd-grid">
+              <div class="references__content bd-grid">
+                <span class="references__subtitle">Sr. Director</span>
+                <h3 class="references__title">Mr. Clay Doe</h3>
+                <ul class="references__contact">
+                  <li>Phone: 999-777-666</li>
+                  <li>Email: aea@gmail.com</li>
+                </ul>
+              </div>
+
+              <div class="references__content bd-grid">
+                <span class="references__subtitle">Sr. Kevin</span>
+                <h3 class="references__title">Mr. Robbinson</h3>
+                <ul class="references__contact">
+                  <li>Phone: 944-777-666</li>
+                  <li>Email: aea@gmail.com</li>
+                </ul>
+              </div>
+            </div>
+          </section> -->
+
+          <!--========== LANGUAGES ==========-->
+          <section class="languages section">
+            <h2 class="section-title">IDIOMAS</h2>
+
+            <div class="languages__container">
+              <ul class="languages__content bd-grid">
+                <li class="languages__name">
+                  <span class="languages__circle"></span> Español-Nativo
+                </li>
+                <li class="languages__name">
+                  <span class="languages__circle"></span> English-Basico
+                </li>
+                <li class="languages__name">
+                  <span class="languages__circle"></span> Portugués-Basico
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!--========== INTERESTS ==========-->
+          <!-- <section class="interests section">
+            <h2 class="section-title">Interests</h2>
+
+            <div class="interests__container bd-grid">
+              <div class="interests__content">
+                <i class="bx bx-headphone interests__icon"></i>
+                <span class="interests__name">Music</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bxs-plane-alt interests__icon"></i>
+                <span class="interests__name">Travel</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bxs-movie interests__icon"></i>
+                <span class="interests__name">Cine</span>
+              </div>
+              <div class="interests__content">
+                <i class="bx bx-football interests__icon"></i>
+                <span class="interests__name">Fútbol</span>
+              </div>
+            </div>
+          </section> -->
+        </div>
+      </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
